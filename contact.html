@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Learning Portal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#main {
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+#head{
+text-align:center;
+margin:20px;
+}
+
+</style>
+ <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#"><img src="images/5.png" alt="logo" style="width:150px;height:40px"></a></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="E-Learning_Homepage.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Forum</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sem
+        </a>
+        <div class="dropdown-menu">
+							<a class="dropdown-item text-light" href="P-cycle.php">P-cycle</a>
+							<a class="dropdown-item" href="C-cycle.php">C-cycle</a>
+							<a class="dropdown-item" href="sem3.php">Sem 3</a>
+							<a class="dropdown-item" href="sem4.php">Sem 4</a>
+							<a class="dropdown-item" href="sem5.php">Sem 5</a>
+							<a class="dropdown-item" href="sem6.php">Sem 6</a>
+							<a class="dropdown-item" href="sem7.php">Sem 7</a>
+							<a class="dropdown-item" href="sem8.php">Sem 8</a>
+      </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div id="head"><h3 >Contact Form</h3></div>
+<div class="container" id="main">
+		
+  <form action="/action_page.php">
+    <label for="fname"> Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+
+    <label for="country">Phone</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your phone number..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<footer id="footer-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<p><i class="fa fa-copyright" aria-hidden="true"></i>copyright 2018</p><p>Designed by dept of CSE</p>
+				</div>
+				<div class="col-sm-3">
+				<h4>Pages</h4>
+					<ul class="list-unstyled">
+					<li><a href="">Home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Sem</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h4>About This Site</h4>
+					<p>This website is only designed for the department of cse.</p>
+				
+				</div>
+				<div class="col-sm-3">
+				<h4>Location</h4>
+				<p>College Campus
+					R N S Institute of Technology,
+					Rajarajeshwarinagar post,
+					Channasandra,
+					Bangalore - 560098
+					Tel : +91 80 28611880/1 Fax : +91 80 28611882</p>
+				
+				</div>
+			</div>
+		</div>
+		<div class="social text-center">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-instagram"></a>
+			</div>
+
+			<div class="clear"></div>
+			
+			
+	</footer>
+</body>
+</html>
